@@ -2,6 +2,7 @@ public class Estudante {
     String nome;
     int matricula;
     double[] notas;
+
     public Estudante(String nome, int matricula, double... notas){
         this.nome = nome;
         this.matricula = matricula;
@@ -17,7 +18,6 @@ public class Estudante {
             soma += notas[i];
         }
         double media = soma / notas.length;
-        System.out.println(media);
         return media;
     }
 
@@ -32,7 +32,7 @@ public class Estudante {
         }
     }
     public double getNota(int pos){
-        if (pos > notas.length || pos < 0){
+        if (pos >= notas.length || pos < 0){
             return -1;
         }
         return notas[pos];

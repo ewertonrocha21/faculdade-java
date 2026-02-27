@@ -18,7 +18,5 @@ public class Q1 {
         int c = Byte.MAX_VALUE;
         int overflowInt = (int)(c + 1);
         System.out.println("Int MAX + 1: " + overflowByte);
-
-
     }
 }
