@@ -19,8 +19,8 @@ public class ContaCorrente {
     }
 
     public void sacar(double valor){
-        if (saldo < 0 || valor > saldo){
-            System.out.println("impossivel sacar");
+        if (saldo < 0 || saldo < valor){
+            System.out.println("impossivel");
         } else{
             saldo -= valor;
             System.out.println(valor + " valor sacado");
