@@ -1,3 +1,5 @@
+package atv2;
+
 public class Temperatura {
 
     double valor;
@@ -10,7 +12,7 @@ public class Temperatura {
             return;
         }
         if (escala.equals("K") && valor < 0) {
-            System.out.println("Temperatura em Kelvin não pode ser negativa");
+            System.out.println("atv2.Temperatura em Kelvin não pode ser negativa");
             return;
         }
         this.valor = valor;
@@ -48,7 +50,7 @@ public class Temperatura {
             k = (valor - 32) * 5 / 9 + 273.15;
         }
         if (k < 0) {
-            System.out.println("Temperatura em Kelvin não pode ser negativa");
+            System.out.println("atv2.Temperatura em Kelvin não pode ser negativa");
             return null;
         }
         return new Temperatura(k, "K");

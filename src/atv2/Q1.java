@@ -1,3 +1,5 @@
+package atv2;
+
 public class Q1 {
     public static void main(String[] args) {
         // aqui ele pega o valor minimo e maximo de cada tipo primitivo escolhidos

@@ -1,3 +1,5 @@
+package atv2;
+
 public class Relogio {
     int Horas;
     int Minutos;

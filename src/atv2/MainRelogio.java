@@ -1,3 +1,5 @@
+package atv2;
+
 public class MainRelogio {
     public static void main(String[] args) {
         Relogio R1 = new Relogio(23, 59,50);
@@ -12,9 +14,9 @@ public class MainRelogio {
 
         // verificando se r1 maior que r2
         if (R1.isMaiorQue(R2)){
-            System.out.println("Relogio 1 maior que Relogio 2");
+            System.out.println("atv2.Relogio 1 maior que atv2.Relogio 2");
         } else {
-            System.out.println("Relogio 2 maior que Relogio 1");
+            System.out.println("atv2.Relogio 2 maior que atv2.Relogio 1");
         }
     }
 }
